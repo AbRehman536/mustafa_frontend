@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mustafa_frontend/appbar.dart';
 import 'package:mustafa_frontend/row_column.dart';
+import 'package:mustafa_frontend/text_fields.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: RowColumn(),
+      home: Login(),
     );
   }
 }
