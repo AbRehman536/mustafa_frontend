@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mustafa_frontend/appbar.dart';
+import 'package:mustafa_frontend/girdview/gridview_builder.dart';
+import 'package:mustafa_frontend/girdview/gridview_count.dart';
 import 'package:mustafa_frontend/images.dart';
 import 'package:mustafa_frontend/listTile.dart';
 import 'package:mustafa_frontend/pageview.dart';
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PageviewDemo(),
+      home: GridviewBuilderDemo(),
     );
   }
 }
