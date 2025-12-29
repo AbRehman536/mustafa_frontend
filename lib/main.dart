@@ -8,6 +8,7 @@ import 'package:mustafa_frontend/images.dart';
 import 'package:mustafa_frontend/listTile.dart';
 import 'package:mustafa_frontend/pageview.dart';
 import 'package:mustafa_frontend/row_column.dart';
+import 'package:mustafa_frontend/tab_bar.dart';
 import 'package:mustafa_frontend/text_fields.dart';
 
 void main() {
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DialogBottomsheet(),
+      home: TabBarDemo(),
     );
   }
 }
