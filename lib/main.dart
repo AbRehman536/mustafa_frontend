@@ -8,6 +8,7 @@ import 'package:mustafa_frontend/girdview/gridview_count.dart';
 import 'package:mustafa_frontend/girdview/gridview_staggered.dart';
 import 'package:mustafa_frontend/images.dart';
 import 'package:mustafa_frontend/listTile.dart';
+import 'package:mustafa_frontend/menu.dart';
 import 'package:mustafa_frontend/pageview.dart';
 import 'package:mustafa_frontend/row_column.dart';
 import 'package:mustafa_frontend/settings.dart';
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -44,7 +46,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Settings(),
+      home: MenuDemo(),
     );
   }
 }
