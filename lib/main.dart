@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mustafa_frontend/appbar.dart';
 import 'package:mustafa_frontend/bottom_bar.dart';
 import 'package:mustafa_frontend/curved_bottom_bar.dart';
+import 'package:mustafa_frontend/date_time_picker.dart';
 import 'package:mustafa_frontend/dialog_bottomSheet.dart';
 import 'package:mustafa_frontend/girdview/gridview_builder.dart';
 import 'package:mustafa_frontend/girdview/gridview_count.dart';
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MenuDemo(),
+      home: DateTimePickerDemo(),
     );
   }
 }
