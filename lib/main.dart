@@ -7,6 +7,7 @@ import 'package:mustafa_frontend/dialog_bottomSheet.dart';
 import 'package:mustafa_frontend/girdview/gridview_builder.dart';
 import 'package:mustafa_frontend/girdview/gridview_count.dart';
 import 'package:mustafa_frontend/girdview/gridview_staggered.dart';
+import 'package:mustafa_frontend/google_map.dart';
 import 'package:mustafa_frontend/images.dart';
 import 'package:mustafa_frontend/listTile.dart';
 import 'package:mustafa_frontend/menu.dart';
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DateTimePickerDemo(),
+      home: GoogleMapDemo(),
     );
   }
 }
